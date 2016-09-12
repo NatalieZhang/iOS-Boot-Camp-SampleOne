@@ -1,7 +1,7 @@
 # iOS-Boot-Camp-SampleOne
-# Pre-work - *Name of App Here*
+# Pre-work - *Tip Calculator*
 
-**Name of your app** is a tip calculator application for iOS.
+**Tip Calculator** is a tip calculator application for iOS.
 
 Submitted by: Yuning Jin (Noctiz)
 
