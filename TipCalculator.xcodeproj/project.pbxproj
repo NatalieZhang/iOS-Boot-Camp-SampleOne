@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		34D2D4961D862AD4004EE5AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2D4951D862AD4004EE5AB /* main.m */; };
 		34D2D4991D862AD4004EE5AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2D4981D862AD4004EE5AB /* AppDelegate.m */; };
-		34D2D49C1D862AD4004EE5AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2D49B1D862AD4004EE5AB /* ViewController.m */; };
+		34D2D49C1D862AD4004EE5AB /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2D49B1D862AD4004EE5AB /* TipViewController.m */; };
 		34D2D49F1D862AD4004EE5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2D49D1D862AD4004EE5AB /* Main.storyboard */; };
 		34D2D4A11D862AD4004EE5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D2D4A01D862AD4004EE5AB /* Assets.xcassets */; };
 		34D2D4A41D862AD4004EE5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2D4A21D862AD4004EE5AB /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		34D2D4951D862AD4004EE5AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34D2D4971D862AD4004EE5AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34D2D4981D862AD4004EE5AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34D2D49A1D862AD4004EE5AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34D2D49B1D862AD4004EE5AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34D2D49A1D862AD4004EE5AB /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		34D2D49B1D862AD4004EE5AB /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		34D2D49E1D862AD4004EE5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34D2D4A01D862AD4004EE5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D2D4A31D862AD4004EE5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				34D2D4971D862AD4004EE5AB /* AppDelegate.h */,
 				34D2D4981D862AD4004EE5AB /* AppDelegate.m */,
-				34D2D49A1D862AD4004EE5AB /* ViewController.h */,
-				34D2D49B1D862AD4004EE5AB /* ViewController.m */,
+				34D2D49A1D862AD4004EE5AB /* TipViewController.h */,
+				34D2D49B1D862AD4004EE5AB /* TipViewController.m */,
 				34D2D49D1D862AD4004EE5AB /* Main.storyboard */,
 				34D2D4A01D862AD4004EE5AB /* Assets.xcassets */,
 				34D2D4A21D862AD4004EE5AB /* LaunchScreen.storyboard */,
@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					34D2D4901D862AD4004EE5AB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9U8SJP9XUE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D2D49C1D862AD4004EE5AB /* ViewController.m in Sources */,
+				34D2D49C1D862AD4004EE5AB /* TipViewController.m in Sources */,
 				34D2D4991D862AD4004EE5AB /* AppDelegate.m in Sources */,
 				34D2D4961D862AD4004EE5AB /* main.m in Sources */,
 			);
@@ -272,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yahoo.TipCalculator;
@@ -283,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9U8SJP9XUE;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yahoo.TipCalculator;
