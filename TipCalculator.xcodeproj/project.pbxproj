@@ -13,6 +13,7 @@
 		34D2D49F1D862AD4004EE5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2D49D1D862AD4004EE5AB /* Main.storyboard */; };
 		34D2D4A11D862AD4004EE5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D2D4A01D862AD4004EE5AB /* Assets.xcassets */; };
 		34D2D4A41D862AD4004EE5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2D4A21D862AD4004EE5AB /* LaunchScreen.storyboard */; };
+		34D2D4AD1D863744004EE5AB /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2D4AC1D863744004EE5AB /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		34D2D4A01D862AD4004EE5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D2D4A31D862AD4004EE5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D2D4A51D862AD4004EE5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D2D4AB1D863744004EE5AB /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		34D2D4AC1D863744004EE5AB /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				34D2D49A1D862AD4004EE5AB /* TipViewController.h */,
 				34D2D49B1D862AD4004EE5AB /* TipViewController.m */,
 				34D2D49D1D862AD4004EE5AB /* Main.storyboard */,
+				34D2D4AB1D863744004EE5AB /* SettingsViewController.h */,
+				34D2D4AC1D863744004EE5AB /* SettingsViewController.m */,
 				34D2D4A01D862AD4004EE5AB /* Assets.xcassets */,
 				34D2D4A21D862AD4004EE5AB /* LaunchScreen.storyboard */,
 				34D2D4A51D862AD4004EE5AB /* Info.plist */,
@@ -154,6 +159,7 @@
 				34D2D49C1D862AD4004EE5AB /* TipViewController.m in Sources */,
 				34D2D4991D862AD4004EE5AB /* AppDelegate.m in Sources */,
 				34D2D4961D862AD4004EE5AB /* main.m in Sources */,
+				34D2D4AD1D863744004EE5AB /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
