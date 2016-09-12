@@ -24,6 +24,7 @@ The following **additional** features are implemented:
 - [x] List anything else that you can get done to improve the app functionality!
 * [x] Fully customized settings for tips percentage
 * [x] One button reset to default tips percentage in SettingsViewController
+* [x] Bill amount one button clear
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
