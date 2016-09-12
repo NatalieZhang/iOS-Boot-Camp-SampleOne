@@ -78,15 +78,6 @@ static NSString *const tipThree = @"tip3";
     [self updateValues];
 }
 
-- (void) updateValuesAnimated{
-    [UIView animateWithDuration:2 animations:^{
-        // This causes first view to fade in and second view to fade out
-        [self updateValues];
-    } completion:^(BOOL finished) {
-        // Do something here when the animation finishes.
-    }];
-}
-
 - (void) updateValues {
     //Get bill amount
     float billAmount = [self.billTextfield.text floatValue];

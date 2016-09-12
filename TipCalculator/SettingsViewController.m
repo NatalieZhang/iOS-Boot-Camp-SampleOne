@@ -57,16 +57,31 @@ static NSString *const tipThree = @"tip3";
 
 - (IBAction)tip1Changed:(UITextField *)sender {
     NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
+    self.tip1.alpha = 0.3;
+    [UIView animateWithDuration:0.5 animations:^{
+        self.tip1.alpha = 1;
+        self.tip1.textColor = [UIColor redColor];
+    }];
     [userDef setFloat:[self.tip1.text floatValue] forKey:tipOne];
     [userDef synchronize];
 }
 - (IBAction)tip2Changed:(UITextField *)sender {
     NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
+    self.tip2.alpha = 0.3;
+    [UIView animateWithDuration:0.5 animations:^{
+        self.tip2.alpha = 1;
+        self.tip2.textColor = [UIColor redColor];
+    }];
     [userDef setFloat:[self.tip2.text floatValue] forKey:tipTwo];
     [userDef synchronize];
 }
 - (IBAction)tip3Changed:(UITextField *)sender {
     NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
+    self.tip3.alpha = 0.3;
+    [UIView animateWithDuration:0.5 animations:^{
+        self.tip3.alpha = 1;
+        self.tip3.textColor = [UIColor redColor];
+    }];
     [userDef setFloat:[self.tip3.text floatValue] forKey:tipThree];
     [userDef synchronize];
 }
@@ -83,7 +98,17 @@ static NSString *const tipThree = @"tip3";
     self.tip1.text = @"0.15";
     self.tip2.text = @"0.20";
     self.tip3.text = @"0.25";
-    NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
+    self.tip1.alpha = 0.3;
+    self.tip2.alpha = 0.3;
+    self.tip3.alpha = 0.3;
+    [UIView animateWithDuration:0.5 animations:^{
+        // This causes first view to fade in and second view to fade out
+        self.tip1.alpha = 1;
+        self.tip2.alpha = 1;
+        self.tip3.alpha = 1;
+    } completion:^(BOOL finished) {
+        // Do something here when the animation finishes.
+    }];
     [self saveTipSettings];
 }
 
